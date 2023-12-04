@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+.root {
+  margin: 0;
+}
+.todo-app-main-container {
+  margin: auto;
+  width: 50%;
+  height: 98vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  border-radius: 10px;
+  padding: 10px;
+  border: 1px solid grey;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
