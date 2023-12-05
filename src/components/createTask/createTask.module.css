@@ -1,0 +1,48 @@
+.create-todo-card {
+  display: flex;
+  justify-content: center;
+  padding-top: 150px;
+  width: 100%;
+
+}
+
+.create-todo-main-container {
+  width: 90%;
+  height: auto;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.todo-title-input-container {
+  margin: 10px 0px;
+  margin-bottom: 20px;
+}
+.todo-name-txt,
+.todo-desc-txt {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+.todo-input {
+  font-size: 14px;
+  width: 90%;
+  border: 1px solid rgb(169, 163, 163);
+  height: 20px;
+}
+.todo-desc-input {
+  font-size: 14px;
+  width: 90%;
+  border: 1px solid rgb(169, 163, 163);
+  height: 150px;
+}
+.create-btn-container {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0px;
+}
+.create-btn {
+  padding: 10px 14px;
+  background-color: #7326d5;
+  color: white;
+  border: 1px solid white;
+  border-radius: 10px;
+}

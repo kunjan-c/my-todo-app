@@ -7,7 +7,7 @@ function App() {
     <>
       <div className="todo-app-main-container">
         <Header></Header>
-        <ContentContainer></ContentContainer>
+        {/* <ContentContainer></ContentContainer> */}
         <CreateTodo></CreateTodo>
       </div>
     </>
