@@ -26,13 +26,16 @@
   font-size: 14px;
   width: 90%;
   border: 1px solid rgb(169, 163, 163);
-  height: 20px;
+  height: 30px;
+  padding: 10px;
 }
 .todo-desc-input {
   font-size: 14px;
   width: 90%;
   border: 1px solid rgb(169, 163, 163);
   height: 150px;
+  padding: 10px;
+  
 }
 .create-btn-container {
   display: flex;
