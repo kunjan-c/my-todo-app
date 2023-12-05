@@ -1,8 +1,17 @@
+import { useNavigate } from "react-router-dom";
 import styles from "./createTask.module.css";
+
 const CreateTodo = () => {
+  const navigate = useNavigate();
+  const onCloseIconClickHandler = () => {
+    navigate("/");
+  };
   return (
     <div className={styles["create-todo-card"]}>
       <div className={styles["create-todo-main-container"]}>
+        <div className={styles["close-icon"]} onClick={onCloseIconClickHandler}>
+          &times;
+        </div>
         <center>
           <h2>Create New TODO</h2>
         </center>
